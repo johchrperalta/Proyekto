@@ -9,14 +9,6 @@ a {
 	font-size: 25px;
 	padding-bottom: 0px;
 	width: 100px;
-	height: 100px;
-		-webkit-transition: 
-		width 1s, height 1s, - webkit-transform 1s;
-		/* Safari*/
-		transition: width 1s, height 1s, transform 1s;
-		background-repeat:no-repeat;
-	
-	
 }
 .header{
 	color:white;
@@ -250,7 +242,7 @@ a {
 }
 .join {
 	padding: 0px;
-	margin-top: 400px;
+	margin-top: 0px;
 	margin-bottom: 50px;
 	display: grid;
 
