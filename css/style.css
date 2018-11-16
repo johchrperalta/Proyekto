@@ -7,43 +7,29 @@ body{ 	text-align: center;
 a {	
 	text-decoration: Impact;
 	font-size: 25px;
-	position: relative;
-    width: 100%;
-    height: 100%
+	padding-bottom: 0px;
+	width: 100px;
+	
 }
-
 i {
     position: absolute;
-    top: 220%;
+    top: 45%;
+}
+.header{
+	color:white;
 }
 
-/* MAIN HEADER SECTION*/
-
-#main-menu {
+#main-menu{
 	margin: 0px 0px 0px 80px;
 	padding: 0;
 	text-align: center;
 	list-style: none;
 	display: grid ;
-	grid-gap: 0px;
+	grid-gap: 10px;
 	grid-template-columns: repeat(6,1fr);
 	
+	
 }
-
-a {	
-		text-decoration: none;
-		font-family: Impact;
-		font-size: 25px;
-		padding-bottom: 0px;
-		width: 100px;
-		height: 100px;
-		-webkit-transition: 
-		width 1s, height 1s, - webkit-transform 1s;
-		/* Safari*/
-		transition: width 1s, height 1s, transform 1s;
-		background-repeat:no-repeat;
-}
-
 .logo {
 		background-image:url(../images/news.jpg);
 		background-size: 90px 90px;
@@ -59,58 +45,32 @@ a {
 		transition: width 1s, height 1s, transform 1s;
 		background-repeat:no-repeat;
 }
-
 .button1 {
-		background-image:url("../images/ICONS/gr.png");
-		background-size: 90px 90px;
-		background-repeat: no-repeat;
-		color: orange;
-		padding: 15px 10px;
-		display: inline-block;
-		width: 100px;
-		height: 100px;
-		-webkit-transition: 
-		width 1s, height 1s, - webkit-transform 1s;
-		/* Safari*/
-		transition: width 1s, height 1s, transform 1s;
-		background-repeat:no-repeat;
-		
-}
-
-.button1:hover {
-	background-image: url("../images/ICONS/grS.png");
-	background-size: 90px 90px;
-	color: rgb(254,219,137);
-	width: 210px;
-	background-repeat:no-repeat;
-}
-
-.button2 {
-		background-image:url("../images/ICONS/jc.png");
+		background-image:url(../images/ICONS/gr.png);
 		background-size: 90px 90px;
 		padding: 15px 10px;
 		display: inline-block;
 		color: orange;		
 		width: 100px;
 		height: 100px;
-		-webkit-transition: 
+		-webkit-transition; 
 		width 1s; /* Safari*/
 		transition:width 1s;
 		background-repeat:no-repeat;
 }
-
-.button2:hover {
-	background-image: url("../images/ICONS/jcS.png");
-	background-size: 90px 90px;
-	color: rgb(254,219,137);
-	width: 210px;
-	background-repeat:no-repeat;
+.button1:hover {
+		background-image:url(../images/ICONS/grS.png);
+		background-size: 90px 90px;
+		color: rgb(254,219,137);
+		width: 210px;
+		background-repeat:no-repeat;
 }
 
 .button3 {
-		background-image: url("../images/ICONS/isa.png");
+		background-image:url(../images/ICONS/isa.png);
 		background-size: 100px 90px;
 		background-repeat: no-repeat;
+	
 		color: orange;
 		padding: 15px 0px;
 		display: inline-block;
@@ -123,19 +83,20 @@ a {
 		background-repeat:no-repeat;
 		
 }
-
 .button3:hover {
-	background-image: url("../images/ICONS/isaS.png");
-	background-size: 90px 90px;
-	color: rgb(254,219,137);
-	width: 210px;
-	background-repeat:no-repeat;
+		background-image:url(../images/ICONS/isaS.png);
+		background-size: 100px 90px;
+		background-repeat: no-repeat;
+		
+		color: rgb(254,219,137);
+		width: 250px;
+		background-repeat:no-repeat;
 }
-
 .button4 {
-		background-image:url("../images/ICONS/ez.png");
+		background-image:url(../images/ICONS/ez.png);
 		background-size: 100px 90px;
 		background-repeat: no-repeat;
+	
 		color: orange;
 		padding: 15px 0px;
 		display: inline-block;
@@ -146,19 +107,43 @@ a {
 		/* Safari*/
 		transition: width 1s, height 1s, transform 1s;
 		background-repeat:no-repeat;
+		
+		
 }
-
 .button4:hover {
-	background-image: url("../images/ICONS/ezS.png");
-	background-size: 90px 90px;
-	color: rgb(254,219,137);
-	width: 210px;
-	background-repeat:no-repeat;
-}
-
-.button5 {
-		background-image:url("../images/ICONS/corl.png");
+		background-image:url(../images/ICONS/ezS.png);
 		background-size: 100px 90px;
+		background-repeat: no-repeat;
+		color: rgb(254,219,137);
+		width: 250px;
+}
+.button5 {
+		background-image:url(../images/ICONS/corl.png);
+		background-size: 90px 85px;
+		background-repeat: no-repeat;
+	
+		color: orange;
+		padding: 15px 0px;
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		-webkit-transition: 
+		width 1s, height 1s, - webkit-transform 1s;
+		/* Safari*/
+		transition: width 1s, height 1s, transform 1s;
+		background-repeat:no-repeat;
+		
+}
+.button5:hover {
+		background-image:url(../images/ICONS/CorlS.png);
+		background-size: 90px 85px;
+		background-repeat: no-repeat;
+		color: rgb(254,219,137);
+		width: 225px;
+}
+.button2 {
+		background-image:url(../images/ICONS/jc.png);
+		background-size: 90px 90px;
 		background-repeat: no-repeat;
 		color: orange;
 		padding: 15px 0px;
@@ -170,14 +155,15 @@ a {
 		/* Safari*/
 		transition: width 1s, height 1s, transform 1s;
 		background-repeat:no-repeat;
+		
+		
 }
-
-.button5:hover {
-	background-image: url("../images/ICONS/corlS.png");
-	background-size: 90px 90px;
-	color: rgb(254,219,137);
-	width: 210px;
-	background-repeat:no-repeat;
+.button2:hover {
+		background-image:url(../images/ICONS/jcS.png);
+		background-size: 90px 80px;
+		color: rgb(254,219,137);
+		width: 250px;
+		background-repeat:no-repeat;
 }
 .line-header{
 	padding:2px;
@@ -261,7 +247,7 @@ a {
 }
 .join {
 	padding: 0px;
-	margin-top: 400px;
+	margin-top: 50px;
 	margin-bottom: 50px;
 	display: grid;
 
