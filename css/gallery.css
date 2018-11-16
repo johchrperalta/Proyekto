@@ -265,12 +265,12 @@ a {
 	opacity: 0.9;
 }
 #box6 {
-	background-image: url("../images/gallery/15.jpg");
+	background-image: url("../images/gallery/fish.JPG");
 	background-size: cover;
 	grid-column: 3/4;
 	grid-row: 2/3;
 }#box6:hover {
-	background-image: url("../images/gallery/15.jpg");
+	background-image: url("../images/gallery/fish.JPG");
 	background-size: cover;
 	grid-column: 3/4;
 	grid-row: 2/3;
